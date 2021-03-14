@@ -1,0 +1,37 @@
+[
+    {
+        "name": "run_buddy",
+        "width": "400px",
+        "height": "270px"
+    },
+    {
+        "name": "vresf",
+        "width": "400px",
+        "height": "270px"
+    },
+    {
+        "name": "wovemi",
+        "width": "400px",
+        "height": "270px"
+    },
+    {
+        "name": "diet",
+        "width": "400px",
+        "height": "270px"
+    },
+    {
+        "name": "extreme",
+        "width": "300px",
+        "height": "200px"
+    },
+    {
+        "name": "smoke",
+        "width": "220px",
+        "height": "300px"
+    },
+    {
+        "name": "guy",
+        "width": "200px",
+        "height": "300px"
+    }
+]
