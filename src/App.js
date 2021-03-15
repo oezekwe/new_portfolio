@@ -23,7 +23,7 @@ function App() {
     }
   };
   return (
-    <div>
+    <div className= "Main">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>
         {renderPage()}

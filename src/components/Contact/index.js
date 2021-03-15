@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import './style.css';
 
 function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
@@ -10,7 +11,6 @@ function ContactForm() {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
             console.log(isValid);
-            // isValid conditional statement
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
@@ -35,7 +35,7 @@ function ContactForm() {
       
     return (
         <section>
-          <h1 data-testid="h1tag">Contact</h1>
+          <h2 data-testid="h1tag">Contact</h2>
           <form id="contact-form" onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">Name:</label>

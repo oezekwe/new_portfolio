@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import './style.css';
 
 function Nav(props) {
   const tabs = ['About Me', 'Projects', 'Contact', 'Resume'];
@@ -17,6 +18,7 @@ function Nav(props) {
           </a>
         </li>
       ))}
+      <span id="nameL">Obinna</span>
     </ul>
   );
 }
