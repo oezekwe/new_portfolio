@@ -23,11 +23,15 @@ function App() {
     }
   };
   return (
-    <div className= "Main">
+    <div>
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div>
         {renderPage()}
       </div>
+      <footer>
+        <a href= "https://github.com/oezekwe"><img src= {`${process.env.PUBLIC_URL}/assets/images/git.png`} width="90px" height="90px" alt="Git_account"></img></a>
+        <a href= "https://www.linkedin.com/in/obinna-ezekwe-31b9a9101/"><img src= {`${process.env.PUBLIC_URL}/assets/images/linkedin.jpg`} width="90px" height="90px" alt="LinkedIn_account"></img></a>
+      </footer>
     </div>
   );
 }

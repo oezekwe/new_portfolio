@@ -1,2 +1,5 @@
 img{margin-bottom: 30px;}
-#intro{width: 900px;}
+#intro{
+    margin-top: 30px;
+    width: 800px;
+}

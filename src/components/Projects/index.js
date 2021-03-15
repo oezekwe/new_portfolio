@@ -10,7 +10,7 @@ function Projects(){
             {projects.map(pic => (
                 <a href= {pic.link}>
                 <img 
-                    src= {`${process.env.PUBLIC_URL}/images/${pic.name}.jpg`}
+                    src= {`${process.env.PUBLIC_URL}/assets/images/${pic.name}.jpg`}
                     width= {pic.width}
                     height= {pic.height}
                     alt= {pic.name} 

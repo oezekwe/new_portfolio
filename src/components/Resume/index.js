@@ -13,7 +13,7 @@ function Resume(){
                 <li>BootStrap</li>
                 <li>jQuery</li>
             </ul>
-            Download my resume <a id="linkTo" href={`${process.env.PUBLIC_URL}/resume.docx`} download>here</a>.
+            Download my resume <a id="linkTo" href={`${process.env.PUBLIC_URL}/assets/resume.docx`} download>here</a>.
         </div>
     );
 
