@@ -18,6 +18,12 @@
         "height": "270px"
     },
     {
+        "name": "hotel",
+        "link": "https://dry-peak-24448.herokuapp.com/",
+        "width": "400px",
+        "height": "270px"
+    },
+    {
         "name": "diet",
         "link": "https://diet-delivery.herokuapp.com/",
         "width": "400px",
