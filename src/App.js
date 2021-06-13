@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Nav from './components/Navigation';
 import About from './components/About';
 import Resume from "./components/Resume";
-import Contact from './components/Contact';
 import Projects from './components/Projects';
 import './App.css';
 
@@ -14,8 +13,6 @@ function App() {
     switch(currentPage){
       case 'Projects':
         return <Projects />
-      case 'Contact':
-        return <Contact />
       case 'Resume':
         return <Resume />
       default:

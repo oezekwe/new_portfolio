@@ -28,23 +28,5 @@
         "link": "https://diet-delivery.herokuapp.com/",
         "width": "400px",
         "height": "270px"
-    },
-    {
-        "name": "extreme",
-        "link": "https://drive.google.com/file/d/1stRySRoPkzFHBMYN0H3PE4CxrD9F0jxc/view?usp=sharing",
-        "width": "300px",
-        "height": "200px"
-    },
-    {
-        "name": "smoke",
-        "link": "https://drive.google.com/file/d/1up9Ff_fQjZl17ZEBhInKVKnNozTNW4e_/view?usp=sharing",
-        "width": "220px",
-        "height": "300px"
-    },
-    {
-        "name": "guy",
-        "link": "https://drive.google.com/file/d/1gd-r9QqhM0IaV_tqZ42Kcau3HZv8u7AG/view?usp=sharing",
-        "width": "200px",
-        "height": "300px"
     }
 ]
